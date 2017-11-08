@@ -53,13 +53,13 @@
                                 <rect key="frame" x="67" y="353" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tI-j1-cry">
-                                <rect key="frame" x="-876" y="35" width="899" height="211"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tI-j1-cry">
+                                <rect key="frame" x="38" y="35" width="283" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Algorithm">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="Futura-Medium"/>
+                                            <font key="NSFont" size="12" name="Futura-Medium"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -69,6 +69,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="nux-ZO-Yyi"/>
                     </view>
+                    <connections>
+                        <outlet property="algorithmText" destination="6tI-j1-cry" id="1rw-4i-8VG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ek7-j2-vKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
