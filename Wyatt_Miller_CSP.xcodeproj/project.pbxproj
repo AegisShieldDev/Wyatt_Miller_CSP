@@ -12,8 +12,8 @@
 		93901EEB1FA256BC00658A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93901EE91FA256BC00658A3C /* Main.storyboard */; };
 		93901EED1FA256BC00658A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93901EEC1FA256BC00658A3C /* Assets.xcassets */; };
 		93901EF01FA256BC00658A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93901EEE1FA256BC00658A3C /* LaunchScreen.storyboard */; };
-		93901EFE1FA25B4200658A3C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFD1FA25B4200658A3C /* ViewController2.swift */; };
-		93901F001FA25B5B00658A3C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFF1FA25B5B00658A3C /* ViewController3.swift */; };
+		93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFD1FA25B4200658A3C /* AlgorithmController.swift */; };
+		93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */; };
 		93901F021FA25B8D00658A3C /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F011FA25B8D00658A3C /* ViewController4.swift */; };
 		93901F041FA25B9B00658A3C /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F031FA25B9B00658A3C /* ViewController5.swift */; };
 		93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F051FA25BAE00658A3C /* ViewController6.swift */; };
@@ -29,8 +29,8 @@
 		93901EEC1FA256BC00658A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93901EEF1FA256BC00658A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93901EF11FA256BC00658A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93901EFD1FA25B4200658A3C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		93901EFF1FA25B5B00658A3C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		93901EFD1FA25B4200658A3C /* AlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
+		93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		93901F011FA25B8D00658A3C /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		93901F031FA25B9B00658A3C /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		93901F051FA25BAE00658A3C /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 			children = (
 				93901EE51FA256BC00658A3C /* AppDelegate.swift */,
 				93901EE71FA256BC00658A3C /* ViewController.swift */,
-				93901EFD1FA25B4200658A3C /* ViewController2.swift */,
-				93901EFF1FA25B5B00658A3C /* ViewController3.swift */,
+				93901EFD1FA25B4200658A3C /* AlgorithmController.swift */,
+				93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */,
 				93901F011FA25B8D00658A3C /* ViewController4.swift */,
 				93901F031FA25B9B00658A3C /* ViewController5.swift */,
 				93901F051FA25BAE00658A3C /* ViewController6.swift */,
@@ -192,8 +192,8 @@
 				93901EE81FA256BC00658A3C /* ViewController.swift in Sources */,
 				93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */,
 				93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */,
-				93901F001FA25B5B00658A3C /* ViewController3.swift in Sources */,
-				93901EFE1FA25B4200658A3C /* ViewController2.swift in Sources */,
+				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
+				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
 				93901F041FA25B9B00658A3C /* ViewController5.swift in Sources */,
 				93901F081FA25BC500658A3C /* ViewController7.swift in Sources */,
 				93901F021FA25B8D00658A3C /* ViewController4.swift in Sources */,

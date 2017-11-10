@@ -9,7 +9,7 @@
 
 import UIKit
 
-public class ViewController2: UIViewController {
+public class AlgorithmController: UIViewController {
 
     @IBOutlet weak var algorithmText: UILabel!
     private func setupAlgoritm() -> Void
