@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
+		934870D81FC360C600802337 /* Bear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D71FC360C600802337 /* Bear.swift */; };
 		93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EE51FA256BC00658A3C /* AppDelegate.swift */; };
 		93901EE81FA256BC00658A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EE71FA256BC00658A3C /* ViewController.swift */; };
 		93901EEB1FA256BC00658A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93901EE91FA256BC00658A3C /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
+		934870D71FC360C600802337 /* Bear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear.swift; sourceTree = "<group>"; };
 		93901EE21FA256BC00658A3C /* Wyatt_Miller_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wyatt_Miller_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93901EE51FA256BC00658A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93901EE71FA256BC00658A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		93901EF91FA2571500658A3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				934870D51FC35F4C00802337 /* Pokeable.swift */,
+				934870D71FC360C600802337 /* Bear.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +197,8 @@
 			files = (
 				93901EE81FA256BC00658A3C /* ViewController.swift in Sources */,
 				93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */,
+				934870D61FC35F4C00802337 /* Pokeable.swift in Sources */,
+				934870D81FC360C600802337 /* Bear.swift in Sources */,
 				93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */,
 				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
 				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
