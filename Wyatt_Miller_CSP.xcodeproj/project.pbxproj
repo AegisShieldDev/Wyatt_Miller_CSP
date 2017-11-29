@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */; };
+		933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D136F1FCF3B9900C3837B /* WebKit.framework */; };
 		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
 		934870D81FC360C600802337 /* Bear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D71FC360C600802337 /* Bear.swift */; };
 		93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EE51FA256BC00658A3C /* AppDelegate.swift */; };
@@ -17,13 +19,15 @@
 		93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFD1FA25B4200658A3C /* AlgorithmController.swift */; };
 		93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */; };
 		93901F021FA25B8D00658A3C /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F011FA25B8D00658A3C /* AbstractionViewController.swift */; };
-		93901F041FA25B9B00658A3C /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F031FA25B9B00658A3C /* ViewController5.swift */; };
+		93901F041FA25B9B00658A3C /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */; };
 		93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F051FA25BAE00658A3C /* ViewController6.swift */; };
 		93901F081FA25BC500658A3C /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F071FA25BC500658A3C /* ViewController7.swift */; };
 		93901F0A1FA2617B00658A3C /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F091FA2617B00658A3C /* ViewController8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		933D136F1FCF3B9900C3837B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
 		934870D71FC360C600802337 /* Bear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear.swift; sourceTree = "<group>"; };
 		93901EE21FA256BC00658A3C /* Wyatt_Miller_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wyatt_Miller_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +40,7 @@
 		93901EFD1FA25B4200658A3C /* AlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
 		93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		93901F011FA25B8D00658A3C /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
-		93901F031FA25B9B00658A3C /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		93901F051FA25BAE00658A3C /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		93901F071FA25BC500658A3C /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		93901F091FA2617B00658A3C /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
@@ -47,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		933D136E1FCF3B9900C3837B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				933D136F1FCF3B9900C3837B /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93901ED91FA256BC00658A3C = {
 			isa = PBXGroup;
 			children = (
 				93901EE41FA256BC00658A3C /* Wyatt_Miller_CSP */,
 				93901EE31FA256BC00658A3C /* Products */,
+				933D136E1FCF3B9900C3837B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,10 +102,11 @@
 				93901EFD1FA25B4200658A3C /* AlgorithmController.swift */,
 				93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */,
 				93901F011FA25B8D00658A3C /* AbstractionViewController.swift */,
-				93901F031FA25B9B00658A3C /* ViewController5.swift */,
+				93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */,
 				93901F051FA25BAE00658A3C /* ViewController6.swift */,
 				93901F071FA25BC500658A3C /* ViewController7.swift */,
 				93901F091FA2617B00658A3C /* ViewController8.swift */,
+				933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,10 +214,11 @@
 				93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */,
 				934870D61FC35F4C00802337 /* Pokeable.swift in Sources */,
 				934870D81FC360C600802337 /* Bear.swift in Sources */,
+				933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */,
 				93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */,
 				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
 				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
-				93901F041FA25B9B00658A3C /* ViewController5.swift in Sources */,
+				93901F041FA25B9B00658A3C /* InternetMasterViewController.swift in Sources */,
 				93901F081FA25BC500658A3C /* ViewController7.swift in Sources */,
 				93901F021FA25B8D00658A3C /* AbstractionViewController.swift in Sources */,
 				93901F0A1FA2617B00658A3C /* ViewController8.swift in Sources */,
