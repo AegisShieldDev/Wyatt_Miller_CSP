@@ -22,11 +22,27 @@ public class InternetMasterViewController: UITableViewController {
         ]
     }()
     
-    private var detailViewcoller : InternetDetailViewController?
+    private lazy var addresses : [String] = []
+    
+    private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        addresses = [
+            "https://google.com",
+            "https://google.com",
+            "https://google.com",
+            "https://google.com",
+            "https://google.com",
+            "https://google.com"
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?
+                InternetDetailViewController
+        }
     }
     
     override public func viewDidLoad() {
@@ -44,7 +60,7 @@ public class InternetMasterViewController: UITableViewController {
     {
         return internetTopics.count
     }
-    override public func tableview(_ tableView: UITableView, cellForRowAt indexPath) -> UITableViewCell
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
@@ -52,6 +68,36 @@ public class InternetMasterViewController: UITableViewController {
         
         return cell
     }
+    
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                if indexPath.row == 0
+                {
+                    pageText = " URL - Address of a page on the internet TCP - A set of rules that governs the delivery of data over the internet IP - Internet Protocol, a set of rules that governs data sent over the Internet DNS - Domain name system, the system for converting URLs to IP addresses."
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = segue.destination as! InternetDetailViewController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+            
+        }
+    }
+    
     override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
