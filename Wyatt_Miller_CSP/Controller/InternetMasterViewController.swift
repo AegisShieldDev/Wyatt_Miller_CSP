@@ -40,12 +40,12 @@ public class InternetMasterViewController: UITableViewController {
         if let splitView = splitViewController
         {
             let currentControllers = splitView.viewControllers
-            detailViewController = currentControllers[0] as?
-                InternetDetailViewController
+            detailViewController = currentControllers[0] as? InternetDetailViewController
         }
     }
     
-    override public func viewDidLoad() {
+    override public func viewDidLoad()
+    {
         super.viewDidLoad()
         setup()
         self.clearsSelectionOnViewWillAppear = false
@@ -91,7 +91,6 @@ public class InternetMasterViewController: UITableViewController {
                 controller.detailAddress = urlString
                 controller.detailText = pageText
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-                
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
             

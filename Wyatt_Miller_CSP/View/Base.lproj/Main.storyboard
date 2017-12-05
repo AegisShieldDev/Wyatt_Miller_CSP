@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ys-BV-9D6">
-                                <rect key="frame" x="164" y="322" width="46" height="35"/>
+                                <rect key="frame" x="164" y="316" width="46" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -256,9 +256,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ic4-2M-bG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106.40000000000001" y="82.3088455772114"/>
+            <point key="canvasLocation" x="678" y="255"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="Wol-T9-W3L">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="dsA-H5-ZGL" customClass="InternetMasterViewController" customModule="Wyatt_Miller_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -274,6 +274,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="K5S-cu-2WV" kind="showDetail" id="7be-lW-Siv"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -281,7 +284,7 @@
                             <outlet property="delegate" destination="dsA-H5-ZGL" id="PWy-oA-KZm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="eRp-P2-npn"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="eRp-P2-npn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RvK-3K-JGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -505,4 +508,7 @@
         <image name="download" width="288" height="175"/>
         <image name="javaSample" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="7be-lW-Siv"/>
+    </inferredMetricsTieBreakers>
 </document>

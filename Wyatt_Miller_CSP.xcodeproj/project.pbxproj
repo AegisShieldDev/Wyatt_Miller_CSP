@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931704A61FD72AB300A6E900 /* DrawingView.swift */; };
 		933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */; };
 		933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D136F1FCF3B9900C3837B /* WebKit.framework */; };
 		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931704A61FD72AB300A6E900 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		933D136F1FCF3B9900C3837B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				93901EE91FA256BC00658A3C /* Main.storyboard */,
 				93901EEE1FA256BC00658A3C /* LaunchScreen.storyboard */,
+				931704A61FD72AB300A6E900 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				934870D61FC35F4C00802337 /* Pokeable.swift in Sources */,
 				934870D81FC360C600802337 /* Bear.swift in Sources */,
 				933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */,
+				931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */,
 				93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */,
 				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
 				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
