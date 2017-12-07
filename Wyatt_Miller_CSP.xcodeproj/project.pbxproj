@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931704A61FD72AB300A6E900 /* DrawingView.swift */; };
+		9325C9B11FD9D35D00FB8C5A /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9325C9B01FD9D35D00FB8C5A /* ArtCell.swift */; };
 		933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */; };
 		933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D136F1FCF3B9900C3837B /* WebKit.framework */; };
 		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		931704A61FD72AB300A6E900 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		9325C9B01FD9D35D00FB8C5A /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		933D136F1FCF3B9900C3837B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				93901F071FA25BC500658A3C /* ViewController7.swift */,
 				93901F091FA2617B00658A3C /* ViewController8.swift */,
 				933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */,
+				9325C9B01FD9D35D00FB8C5A /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93901EE81FA256BC00658A3C /* ViewController.swift in Sources */,
+				9325C9B11FD9D35D00FB8C5A /* ArtCell.swift in Sources */,
 				93901EE61FA256BC00658A3C /* AppDelegate.swift in Sources */,
 				934870D61FC35F4C00802337 /* Pokeable.swift in Sources */,
 				934870D81FC360C600802337 /* Bear.swift in Sources */,
