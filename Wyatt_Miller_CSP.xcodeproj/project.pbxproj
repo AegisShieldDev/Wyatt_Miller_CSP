@@ -21,7 +21,7 @@
 		93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */; };
 		93901F021FA25B8D00658A3C /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F011FA25B8D00658A3C /* AbstractionViewController.swift */; };
 		93901F041FA25B9B00658A3C /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */; };
-		93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F051FA25BAE00658A3C /* ViewController6.swift */; };
+		93901F061FA25BAE00658A3C /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F051FA25BAE00658A3C /* CreativityViewController.swift */; };
 		93901F081FA25BC500658A3C /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F071FA25BC500658A3C /* ViewController7.swift */; };
 		93901F0A1FA2617B00658A3C /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F091FA2617B00658A3C /* ViewController8.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,7 @@
 		93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		93901F011FA25B8D00658A3C /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
-		93901F051FA25BAE00658A3C /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		93901F051FA25BAE00658A3C /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		93901F071FA25BC500658A3C /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		93901F091FA2617B00658A3C /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 				93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */,
 				93901F011FA25B8D00658A3C /* AbstractionViewController.swift */,
 				93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */,
-				93901F051FA25BAE00658A3C /* ViewController6.swift */,
+				93901F051FA25BAE00658A3C /* CreativityViewController.swift */,
 				93901F071FA25BC500658A3C /* ViewController7.swift */,
 				93901F091FA2617B00658A3C /* ViewController8.swift */,
 				933D136C1FCF39CB00C3837B /* InternetDetailViewController.swift */,
@@ -219,7 +219,7 @@
 				934870D81FC360C600802337 /* Bear.swift in Sources */,
 				933D136D1FCF39CB00C3837B /* InternetDetailViewController.swift in Sources */,
 				931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */,
-				93901F061FA25BAE00658A3C /* ViewController6.swift in Sources */,
+				93901F061FA25BAE00658A3C /* CreativityViewController.swift in Sources */,
 				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
 				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
 				93901F041FA25B9B00658A3C /* InternetMasterViewController.swift in Sources */,

@@ -443,10 +443,10 @@
             </objects>
             <point key="canvasLocation" x="-1081" y="896"/>
         </scene>
-        <!--View Controller5-->
+        <!--Creativity View Controller-->
         <scene sceneID="PSU-hS-kck">
             <objects>
-                <viewController id="gam-Wc-h9U" customClass="ViewController5" customModule="Wyatt_Miller_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gam-Wc-h9U" customClass="CreativityViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q6H-WY-gNP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -456,7 +456,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xLo-XS-Hx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="115"/>
+            <point key="canvasLocation" x="1660" y="91"/>
         </scene>
         <!--View Controller6-->
         <scene sceneID="aCK-xw-lfu">
