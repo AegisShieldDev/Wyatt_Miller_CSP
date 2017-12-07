@@ -95,7 +95,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
             let art  = artSelection[indexPath.row]
             let size = collectionView.bounds.size
             let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
-            let largeSize = CGSize(width: art!.size.idth * widthScale, height: art!.size.height * widthScale)
+            let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height * widthScale)
             
             return largeSize
         }
@@ -114,7 +114,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
         return sectionInsets
     }
     
-    public func collectionView(_ collecnView: UICollectionView,
+    public func collectionView(_ collectionView: UICollectionView,
                                layout collectionViewLayout: UICollectionViewLayout,
                                minimumLineSpacingForSectionAt section: Int) -> CGFloat
     {
