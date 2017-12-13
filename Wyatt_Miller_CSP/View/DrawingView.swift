@@ -12,71 +12,109 @@ class DrawingView: UIView {
 
     override public func draw (_ rect: CGRect)
     {
-        drawStickFigure().stroke()
-        drawTurtle()
-        drawChoco()
+        //drawStickFigure().stroke()
+        
+
+    
+        drawRed()
+        drawYellow()
+        drawOrange()
+        drawWhite()
+        drawGrey()
+        drawBlack()
     }
     
-    private func drawChoco() -> Void
+    private func drawRed() -> Void
     {
-        let choco = UIBezierPath()
+        let red = UIBezierPath()
         
-        choco.move(to: CGPoint(x: 50, y: 50))
-        choco.addLine(to: CGPoint(x: 50, y: 100))
-        choco.addLine(to: CGPoint(x: 150, y: 100))
-        choco.addLine(to: CGPoint(x: 150, y: 50))
-        choco.close()
-        UIColor(patternImage: UIImage(named:"CT_Chocobo")!).setFill()
-        UIColor.gray.setStroke()
-        choco.lineWidth = 2.0
-        choco.fill()
-        choco.stroke()
+        UIColor.red.setFill()
+        red.move(to: CGPoint(x: 0, y: 0))
+        red.addLine(to: CGPoint(x: 0, y: 150))
+        red.addLine(to: CGPoint(x: 350, y: 0))
+        red.close()
+        //UIColor(patternImage: UIImage(named:"CT_Chocobo")!).setFill()
+        red.lineWidth = 2.0
+        red.fill()
+        red.stroke()
+    }
+    private func drawYellow() -> Void
+    {
         
-        let hay = UIBezierPath()
+        let yellow = UIBezierPath()
         
         UIColor.yellow.setFill()
-        hay.move(to: CGPoint(x: 50, y: 150))
-        hay.addLine(to: CGPoint(x: 50, y: 200))
-        hay.addLine(to: CGPoint(x: 150, y: 200))
-        hay.addLine(to: CGPoint(x: 150, y: 150))
-        hay.close()
-        hay.stroke()
+        yellow.move(to: CGPoint(x: 0, y: 150))
+        yellow.addLine(to: CGPoint(x: 350, y: 0))
+        yellow.addLine(to: CGPoint(x: 350, y: 150))
+        yellow.addLine(to: CGPoint(x: 0, y: 300))
+        yellow.close()
+        yellow.lineWidth = 2.0
+        yellow.stroke()
+        yellow.fill()
+        
     }
-    
-    private func drawStickFigure() -> UIBezierPath
+    private func drawOrange() -> Void
     {
-        let stickFigure = UIBezierPath()
+        let orange = UIBezierPath()
         
-        UIColor.cyan.setStroke()
-        stickFigure.lineWidth = 3.0
+        UIColor.orange.setFill()
+        orange.move(to: CGPoint(x: 0, y: 300))
+        orange.addLine(to: CGPoint(x: 350, y: 0))
+        orange.addLine(to: CGPoint(x: 350, y: 400))
+        orange.addLine(to: CGPoint(x: 0, y: 500))
+        orange.close()
+        orange.lineWidth = 2.0
+        orange.stroke()
+        orange.fill()
         
-        stickFigure.addArc(withCenter: CGPoint(x: 200, y: 200),
-                               radius: CGFloat(20),
-                               startAngle: CGFloat(0),
-                               endAngle: CGFloat(2) * CGFloat.pi,
-                               clockwise: true)
         
-        stickFigure.move(to: CGPoint(x: 200, y: 220))
-        stickFigure.addLine(to: CGPoint(x: 200, y: 270))
-        stickFigure.move(to: CGPoint(x: 180, y: 240))
-        stickFigure.addLine(to: CGPoint(x: 220, y: 240))
-        stickFigure.move(to: CGPoint(x: 200, y: 270))
-        stickFigure.addLine(to: CGPoint(x: 180, y: 300))
-        stickFigure.move(to: CGPoint(x: 200, y: 270))
-        stickFigure.addLine(to: CGPoint(x: 220, y: 300))
-        
-        return stickFigure
     }
-    
-    private func drawTurtle() -> Void
+    private func drawWhite() -> Void
     {
-        let logo = UIBezierPath()
+        let white = UIBezierPath()
         UIColor.white.setFill()
-        logo.move(to: CGPoint(x: 50, y: 250))
-        logo.addLine(to: CGPoint(x: 100, y: 300))
-        logo.addLine(to: CGPoint(x: 50, y: 350))
-        logo.close()
-        logo.fill()
+        
+        white.move(to: CGPoint(x: 0, y: 450))
+        white.addLine(to: CGPoint(x: 350, y: 0))
+        white.addLine(to: CGPoint(x: 350, y: 450))
+        white.addLine(to: CGPoint(x: 0, y: 550))
+        white.close()
+        white.lineWidth = 2.0
+        white.stroke()
+        white.fill()
     }
+    private func drawGrey() -> Void
+    {
+        let grey = UIBezierPath()
+        
+        UIColor.gray.setFill()
+        grey.move(to: CGPoint(x: 0, y: 650))
+        grey.addLine(to: CGPoint(x: 350, y: 0))
+        grey.addLine(to: CGPoint(x: 350, y: 450))
+        grey.addLine(to: CGPoint(x: 0, y: 550))
+        grey.close()
+        grey.lineWidth = 2.0
+        grey.stroke()
+        grey.fill()
+    }
+    private func drawBlack() -> Void
+    {
+        
+        let black = UIBezierPath()
+        
+        UIColor.black.setFill()
+        black.move(to: CGPoint(x: 0, y: 800))
+        black.addLine(to: CGPoint(x: 350, y: 0))
+        black.addLine(to: CGPoint(x: 350, y: 600))
+        black.addLine(to: CGPoint(x: 0, y: 700))
+        black.close()
+        black.lineWidth = 2.0
+        black.stroke()
+        black.fill()
+        
+    }
+    
+    
 
 }

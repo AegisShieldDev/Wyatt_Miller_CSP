@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaC-7f-ZER" customClass="DrawingView" customModule="Wyatt_Miller_CSP" customModuleProvider="target">
-                                <rect key="frame" x="35" y="258" width="313" height="370"/>
+                                <rect key="frame" x="35" y="258" width="324" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -261,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ic4-2M-bG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1016.8" y="254.12293853073464"/>
+            <point key="canvasLocation" x="1638" y="87"/>
         </scene>
         <!--Internet Samples-->
         <scene sceneID="Wol-T9-W3L">
@@ -293,7 +293,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RvK-3K-JGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="847" y="-582"/>
+            <point key="canvasLocation" x="1466" y="-750"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jlD-i7-g15">
@@ -309,7 +309,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgS-ze-unW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106" y="-582"/>
+            <point key="canvasLocation" x="514" y="-750"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="J9g-Hb-qZE">
@@ -322,7 +322,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6f-4r-YOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1060" y="-251"/>
+            <point key="canvasLocation" x="-439" y="-419"/>
         </scene>
         <!--Algorithm Controller-->
         <scene sceneID="cVz-Wf-aOL">
@@ -366,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ek7-j2-vKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2505" y="-1083"/>
+            <point key="canvasLocation" x="2473" y="-844"/>
         </scene>
         <!--Global Impact View Controller-->
         <scene sceneID="moU-ft-Vp9">
@@ -433,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8N-Q9-kXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1610" y="-1082"/>
+            <point key="canvasLocation" x="3369" y="-843"/>
         </scene>
         <!--Creativity View Controller-->
         <scene sceneID="J6Z-ZE-jta">
@@ -571,6 +571,6 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7be-lW-Siv"/>
+        <segue reference="Fjm-1Y-Nom"/>
     </inferredMetricsTieBreakers>
 </document>
