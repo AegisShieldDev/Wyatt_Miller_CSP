@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Proamming View Controller-->
+        <!--Programming View Controller-->
         <scene sceneID="jsw-Cu-cU5">
             <objects>
-                <viewController id="Pfb-9y-c0U" customClass="ProammingViewController" sceneMemberID="viewController">
+                <viewController id="Pfb-9y-c0U" customClass="ProgrammingViewController" customModule="Wyatt_Miller_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IZo-My-oZI" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
