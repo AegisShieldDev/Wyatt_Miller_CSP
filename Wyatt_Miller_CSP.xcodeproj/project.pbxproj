@@ -41,6 +41,7 @@
 		93901F061FA25BAE00658A3C /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F051FA25BAE00658A3C /* CreativityViewController.swift */; };
 		93901F081FA25BC500658A3C /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F071FA25BC500658A3C /* ViewController7.swift */; };
 		93901F0A1FA2617B00658A3C /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93901F091FA2617B00658A3C /* ViewController8.swift */; };
+		939AA1411FE9A4B200415333 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AA1401FE9A4B200415333 /* DeathScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		93901F051FA25BAE00658A3C /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		93901F071FA25BC500658A3C /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		93901F091FA2617B00658A3C /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		939AA1401FE9A4B200415333 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				93889B5E1FE1AD48009D0B25 /* GameScene.swift */,
 				93889B5D1FE1AD48009D0B25 /* LevelCompleteScene.swift */,
 				93889B5C1FE1AD48009D0B25 /* StartScene.swift */,
+				939AA1401FE9A4B200415333 /* DeathScene.swift */,
 			);
 			path = "Game Controller";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				93901F041FA25B9B00658A3C /* InternetMasterViewController.swift in Sources */,
 				93901F081FA25BC500658A3C /* ViewController7.swift in Sources */,
 				93901F021FA25B8D00658A3C /* AbstractionViewController.swift in Sources */,
+				939AA1411FE9A4B200415333 /* DeathScene.swift in Sources */,
 				93889B5F1FE1AD48009D0B25 /* StartScene.swift in Sources */,
 				93901F0A1FA2617B00658A3C /* ViewController8.swift in Sources */,
 			);
