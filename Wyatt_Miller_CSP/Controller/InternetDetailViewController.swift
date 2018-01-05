@@ -33,7 +33,7 @@ public class InternetDetailViewController : UIViewController
     override public func viewDidLoad()
     {
         super.viewDidLoad()
-        setup()
+        configureDetailView()
     }
     
     private func configureDetailView() -> Void
@@ -51,7 +51,7 @@ public class InternetDetailViewController : UIViewController
         {
             if let currentWebView = webViewer
             {
-                let currentURL = URL(string:"www.aq.com")
+                let currentURL = URL(string:"https://google.com")
                 currentWebView.load(URLRequest(url:currentURL!))
             }
         }

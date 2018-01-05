@@ -18,8 +18,8 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     {
         return [
             UIImage(named: "CT_Chocobo"),
-            UIImage(named: "CT_Chocobo"),
-            UIImage(named: "CT_Chocobo"),
+            UIImage(named: "A swarm of numbers"),
+            UIImage(named: "MyArt"),
             UIImage(named: "CT_Chocobo"),
             UIImage(named: "CT_Chocobo"),
             UIImage(named: "CT_Chocobo"),

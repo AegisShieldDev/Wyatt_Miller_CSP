@@ -30,11 +30,11 @@ public class InternetMasterViewController: UITableViewController {
     {
         addresses = [
             "https://google.com",
-            "https://google.com",
-            "https://google.com",
-            "https://google.com",
-            "https://google.com",
-            "https://google.com"
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "https://ctec.canyonsdistrict.org/",
+            "http://www.canyonsdistrict.org/",
+            "https://twitter.com/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html"
         ]
         
         if let splitView = splitViewController
