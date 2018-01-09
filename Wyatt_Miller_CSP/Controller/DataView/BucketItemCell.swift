@@ -35,9 +35,14 @@ class BucketItemCell: UITableViewCell {
         let emoji = UnicodeScalar(ascii)?.description
         return emoji!
     }
-    override func awakeFromNib() {
+    override func awakeFromNib()
+    {
         super.awakeFromNib()
         // Initialization code
+    }
+    override func setSelected(_ selected: Bool, animated: Bool)
+    {
+        super.setSelected(selected, animated: animated)
     }
     
     private func updateCellView()
@@ -53,13 +58,9 @@ class BucketItemCell: UITableViewCell {
             bucketItemText.text = "Text goes here"
         }
         
-        bucketItemSymbol.text = randomEmojiSymbol()
+        bucketItemSymbol.text = randomEmoji()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
 
 }
