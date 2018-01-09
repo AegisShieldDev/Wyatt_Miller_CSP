@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -257,28 +258,44 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HV-ws-IIR">
-                                            <rect key="frame" x="8" y="0.0" width="30" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HV-ws-IIR">
+                                            <rect key="frame" x="8" y="0.0" width="30" height="28"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="0iD-Ia-Y6M"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bucket Item Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXL-Gj-tLN">
-                                            <rect key="frame" x="46" y="-3" width="329" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bucket Item Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXL-Gj-tLN">
+                                            <rect key="frame" x="58" y="0.0" width="317" height="23.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGi-8T-Ze1">
-                                            <rect key="frame" x="305" y="22" width="70" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGi-8T-Ze1">
+                                            <rect key="frame" x="305" y="23.5" width="70" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="8KW-Wn-RuY"/>
+                                                <constraint firstAttribute="height" constant="20" id="laz-LH-crk"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="BGi-8T-Ze1" firstAttribute="top" secondItem="gXL-Gj-tLN" secondAttribute="bottom" constant="20" id="IIl-cJ-miO"/>
+                                        <constraint firstItem="BGi-8T-Ze1" firstAttribute="top" secondItem="gXL-Gj-tLN" secondAttribute="bottom" id="IMK-oB-T6G"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="1HV-ws-IIR" secondAttribute="bottom" constant="7.5" id="KOV-k2-U9K"/>
+                                        <constraint firstAttribute="bottom" secondItem="BGi-8T-Ze1" secondAttribute="bottom" id="N2D-mC-hvm"/>
+                                        <constraint firstItem="gXL-Gj-tLN" firstAttribute="trailing" secondItem="BGi-8T-Ze1" secondAttribute="trailing" id="YHx-qv-yuJ"/>
+                                        <constraint firstItem="1HV-ws-IIR" firstAttribute="leading" secondItem="6dj-LL-8WH" secondAttribute="leadingMargin" id="ewM-Ju-g5F"/>
+                                        <constraint firstItem="gXL-Gj-tLN" firstAttribute="leading" secondItem="1HV-ws-IIR" secondAttribute="trailing" constant="20" id="jBb-OA-OF9"/>
+                                        <constraint firstItem="1HV-ws-IIR" firstAttribute="top" secondItem="gXL-Gj-tLN" secondAttribute="top" id="lCN-A9-Op3"/>
+                                        <constraint firstItem="1HV-ws-IIR" firstAttribute="top" secondItem="6dj-LL-8WH" secondAttribute="top" id="see-1o-bCO"/>
+                                        <constraint firstAttribute="trailing" secondItem="gXL-Gj-tLN" secondAttribute="trailing" id="wD8-sT-boy"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
