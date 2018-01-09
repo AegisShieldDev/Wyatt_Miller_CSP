@@ -13,7 +13,7 @@
 		933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D136F1FCF3B9900C3837B /* WebKit.framework */; };
 		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
 		934870D81FC360C600802337 /* Bear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D71FC360C600802337 /* Bear.swift */; };
-		934F90A020054476002B5CEB /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */; };
+		934F90A020054476002B5CEB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F909F20054476002B5CEB /* DataViewController.swift */; };
 		934F90A220054519002B5CEB /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F90A120054519002B5CEB /* BucketItemCell.swift */; };
 		934F90A5200545CA002B5CEB /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F90A4200545CA002B5CEB /* BucketItem.swift */; };
 		934F90A720054667002B5CEB /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 934F90A620054667002B5CEB /* bucket.csv */; };
@@ -55,7 +55,7 @@
 		933D136F1FCF3B9900C3837B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
 		934870D71FC360C600802337 /* Bear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear.swift; sourceTree = "<group>"; };
-		934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataViewControllerTableViewController.swift; path = Wyatt_Miller_CSP/Controller/DataView/DataViewControllerTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		934F909F20054476002B5CEB /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = Wyatt_Miller_CSP/Controller/DataView/DataViewController.swift; sourceTree = SOURCE_ROOT; };
 		934F90A120054519002B5CEB /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		934F90A4200545CA002B5CEB /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		934F90A620054667002B5CEB /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket.csv; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		934F90A32005455F002B5CEB /* DataView */ = {
 			isa = PBXGroup;
 			children = (
-				934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */,
+				934F909F20054476002B5CEB /* DataViewController.swift */,
 				934F90A120054519002B5CEB /* BucketItemCell.swift */,
 			);
 			path = DataView;
@@ -324,7 +324,7 @@
 				931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */,
 				93889B7F1FE1B328009D0B25 /* ProgrammingViewController.swift in Sources */,
 				93889B7C1FE1AFFC009D0B25 /* Projectile.swift in Sources */,
-				934F90A020054476002B5CEB /* DataViewControllerTableViewController.swift in Sources */,
+				934F90A020054476002B5CEB /* DataViewController.swift in Sources */,
 				934F90A220054519002B5CEB /* BucketItemCell.swift in Sources */,
 				934F90A5200545CA002B5CEB /* BucketItem.swift in Sources */,
 				93901F061FA25BAE00658A3C /* CreativityViewController.swift in Sources */,

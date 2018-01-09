@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BucketItemCell: UITableViewCell {
+public class BucketItemCell: UITableViewCell {
     @IBOutlet weak var bucketItemSymbol: UILabel!
     @IBOutlet weak var bucketItemText: UILabel!
     @IBOutlet weak var bucketItemSignature: UILabel!
@@ -24,7 +24,7 @@ class BucketItemCell: UITableViewCell {
     private func randomEmoji()->String
     {
         let emojiStart = 0x1F601
-        let emojuEnd = 0x1F64F
+        let emojiEnd = 0x1F64F
         let symbolStart = 0x1F680
         let symbolEnd = 0x1F6C5
         
@@ -35,12 +35,12 @@ class BucketItemCell: UITableViewCell {
         let emoji = UnicodeScalar(ascii)?.description
         return emoji!
     }
-    override func awakeFromNib()
+    override public func awakeFromNib()
     {
         super.awakeFromNib()
         // Initialization code
     }
-    override func setSelected(_ selected: Bool, animated: Bool)
+    override public func setSelected(_ selected: Bool, animated: Bool)
     {
         super.setSelected(selected, animated: animated)
     }
@@ -60,7 +60,5 @@ class BucketItemCell: UITableViewCell {
         
         bucketItemSymbol.text = randomEmoji()
     }
-
-    
 
 }
