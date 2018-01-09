@@ -1,5 +1,5 @@
 //
-//  DataViewControllerTableViewController.swift
+//  DataViewController.swift
 //  Wyatt_Miller_CSP
 //
 //  Created by Miller, Wyatt on 1/9/18.
@@ -55,7 +55,7 @@ public class DataViewController: UITableViewController {
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: IndexPath) as! UITableViewCell
+        let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as! BucketItemCell
         
         currentCell.bucketItem = bucketList[indexPath.row]
         
