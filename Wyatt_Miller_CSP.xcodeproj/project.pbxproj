@@ -13,6 +13,10 @@
 		933D13701FCF3B9900C3837B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D136F1FCF3B9900C3837B /* WebKit.framework */; };
 		934870D61FC35F4C00802337 /* Pokeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D51FC35F4C00802337 /* Pokeable.swift */; };
 		934870D81FC360C600802337 /* Bear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934870D71FC360C600802337 /* Bear.swift */; };
+		934F90A020054476002B5CEB /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */; };
+		934F90A220054519002B5CEB /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F90A120054519002B5CEB /* BucketItemCell.swift */; };
+		934F90A5200545CA002B5CEB /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F90A4200545CA002B5CEB /* BucketItem.swift */; };
+		934F90A720054667002B5CEB /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 934F90A620054667002B5CEB /* bucket.csv */; };
 		93889B5F1FE1AD48009D0B25 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93889B5C1FE1AD48009D0B25 /* StartScene.swift */; };
 		93889B601FE1AD48009D0B25 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93889B5D1FE1AD48009D0B25 /* LevelCompleteScene.swift */; };
 		93889B611FE1AD48009D0B25 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93889B5E1FE1AD48009D0B25 /* GameScene.swift */; };
@@ -51,6 +55,10 @@
 		933D136F1FCF3B9900C3837B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		934870D51FC35F4C00802337 /* Pokeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeable.swift; sourceTree = "<group>"; };
 		934870D71FC360C600802337 /* Bear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear.swift; sourceTree = "<group>"; };
+		934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataViewControllerTableViewController.swift; path = Wyatt_Miller_CSP/Controller/DataView/DataViewControllerTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		934F90A120054519002B5CEB /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		934F90A4200545CA002B5CEB /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		934F90A620054667002B5CEB /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket.csv; sourceTree = "<group>"; };
 		93889B5C1FE1AD48009D0B25 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		93889B5D1FE1AD48009D0B25 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
 		93889B5E1FE1AD48009D0B25 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -102,6 +110,15 @@
 				933D136F1FCF3B9900C3837B /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		934F90A32005455F002B5CEB /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				934F909F20054476002B5CEB /* DataViewControllerTableViewController.swift */,
+				934F90A120054519002B5CEB /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 		93889B621FE1AD4F009D0B25 /* Game Controller */ = {
@@ -158,10 +175,11 @@
 		93901EF71FA256E700658A3C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				934F90A32005455F002B5CEB /* DataView */,
 				93889B621FE1AD4F009D0B25 /* Game Controller */,
 				93901EE51FA256BC00658A3C /* AppDelegate.swift */,
-				93901EE71FA256BC00658A3C /* ViewController.swift */,
 				93901EFD1FA25B4200658A3C /* AlgorithmController.swift */,
+				93901EE71FA256BC00658A3C /* ViewController.swift */,
 				93901EFF1FA25B5B00658A3C /* GlobalImpactViewController.swift */,
 				93901F011FA25B8D00658A3C /* AbstractionViewController.swift */,
 				93901F031FA25B9B00658A3C /* InternetMasterViewController.swift */,
@@ -196,6 +214,7 @@
 				93889B771FE1AFFC009D0B25 /* Projectile.swift */,
 				934870D51FC35F4C00802337 /* Pokeable.swift */,
 				934870D71FC360C600802337 /* Bear.swift */,
+				934F90A4200545CA002B5CEB /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +222,7 @@
 		93901EFA1FA2571F00658A3C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				934F90A620054667002B5CEB /* bucket.csv */,
 				93889B701FE1AEB1009D0B25 /* Utilities.swift */,
 				93889B6D1FE1ADF7009D0B25 /* Sounds */,
 				93901EEC1FA256BC00658A3C /* Assets.xcassets */,
@@ -272,6 +292,7 @@
 			files = (
 				93901EF01FA256BC00658A3C /* LaunchScreen.storyboard in Resources */,
 				93901EED1FA256BC00658A3C /* Assets.xcassets in Resources */,
+				934F90A720054667002B5CEB /* bucket.csv in Resources */,
 				93889B6C1FE1ADF0009D0B25 /* powerup sound.mp3 in Resources */,
 				93889B681FE1ADF0009D0B25 /* extra sound.mp3 in Resources */,
 				93889B691FE1ADF0009D0B25 /* invader sound.mp3 in Resources */,
@@ -303,6 +324,9 @@
 				931704A71FD72AB300A6E900 /* DrawingView.swift in Sources */,
 				93889B7F1FE1B328009D0B25 /* ProgrammingViewController.swift in Sources */,
 				93889B7C1FE1AFFC009D0B25 /* Projectile.swift in Sources */,
+				934F90A020054476002B5CEB /* DataViewControllerTableViewController.swift in Sources */,
+				934F90A220054519002B5CEB /* BucketItemCell.swift in Sources */,
+				934F90A5200545CA002B5CEB /* BucketItem.swift in Sources */,
 				93901F061FA25BAE00658A3C /* CreativityViewController.swift in Sources */,
 				93901F001FA25B5B00658A3C /* GlobalImpactViewController.swift in Sources */,
 				93901EFE1FA25B4200658A3C /* AlgorithmController.swift in Sources */,
