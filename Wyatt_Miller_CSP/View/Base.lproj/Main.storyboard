@@ -297,6 +297,11 @@
                                         <constraint firstAttribute="trailing" secondItem="gXL-Gj-tLN" secondAttribute="trailing" id="wD8-sT-boy"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="BGi-8T-Ze1" id="1Fe-kN-fXc"/>
+                                    <outlet property="bucketItemSymbol" destination="1HV-ws-IIR" id="TGK-Jb-uNt"/>
+                                    <outlet property="bucketItemText" destination="gXL-Gj-tLN" id="S1p-2g-tda"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
