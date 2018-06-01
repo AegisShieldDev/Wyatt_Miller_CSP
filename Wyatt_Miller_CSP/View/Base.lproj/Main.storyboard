@@ -261,7 +261,7 @@
         <!--Data View Controller-->
         <scene sceneID="MkH-9B-1yN">
             <objects>
-                <tableViewController id="rMY-j7-UXG" customClass="DataViewController" sceneMemberID="viewController">
+                <tableViewController id="rMY-j7-UXG" customClass="DataViewController" customModule="Wyatt_Miller_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ftf-ya-7hH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
